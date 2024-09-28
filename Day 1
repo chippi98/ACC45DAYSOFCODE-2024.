@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int score ;
+    printf("Enter Team Score \n");
+    scanf("%d",&score);
+
+if(score >=12)
+{
+    printf("Congrats you have qualified for the next Stage");
+
+}
+else{
+    printf("Sorry! Better Luck next time ");
+}
+}

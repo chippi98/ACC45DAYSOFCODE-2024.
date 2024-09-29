@@ -1,0 +1,58 @@
+#include <stdio.h>
+
+int main()
+{
+    int d,t,dm,dsa,toc,dma,s,a ;
+
+printf("Enter Dragon's DSA marks \n ");
+scanf("%d",&d);
+
+printf("Enter Dragon's TOC marks \n");
+scanf("%d",&t);
+
+printf("Enter Dragon's DM marks \n");
+scanf("%d",&dm);
+
+printf("Enter sloth's DSA marks \n");
+scanf("%d",&dsa);
+
+printf("Enter sloth 's TOC marks \n");
+scanf("%d",&toc);
+
+printf("Enter sloth's DM marks \n");
+scanf("%d",&dma);
+
+
+//sum of dragon's marks 
+s=d+t+dm;
+//sum of sloth's marks 
+a=dsa+toc+dma ;
+
+if(s>a)
+{
+    printf("Dragon gets a better rank");
+}
+
+ else if(s==a && d>dsa) 
+ {
+       printf("dragon gets a better rank ");
+    }
+
+else if(s==a && d==dsa )
+ {
+ if(t>toc)
+   {
+       printf("dragom gets a better rank");
+   }
+
+ else if(s==a && d==dm && t==toc)
+{
+    printf("Both gets the same rank");
+    }
+ 
+ else
+ {
+     printf("sloth gets the better rank ");
+ }
+}
+}

@@ -25,6 +25,7 @@ scanf("%d",&dma);
 
 //sum of dragon's marks 
 s=d+t+dm;
+
 //sum of sloth's marks 
 a=dsa+toc+dma ;
 

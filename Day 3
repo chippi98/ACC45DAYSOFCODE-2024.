@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+
+
+int main()
+{
+    int a,b,c,d,fri,sum;
+    printf("number of hours from monday to Thursday \n");
+    scanf("%d",&a);
+    scanf("%d",&b);
+ scanf("%d",&c);
+ scanf("%d",&d);
+        
+        
+        printf("enter Chill day working hours \n");
+        scanf("%d",&fri);
+        
+sum=a+b+c+d+fri;
+
+printf("Total working hours %d", sum);
+        
+}

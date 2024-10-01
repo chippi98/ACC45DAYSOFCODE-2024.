@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,chef;
+
+     
+     printf("enter topics in terms of 1,2,3,....10 \n"); 
+     scanf("%d",&a);
+     scanf("%d",&b);
+     scanf("%d",&c);
+
+     
+     printf("enter the topics which was given \n");
+     scanf("%d",&chef);
+     
+     if(chef==a || chef==b || chef==c)
+     {
+         printf("yess he got the prepared topic "); 
+     }
+    else
+    {
+        printf("noo he didn't get the prepared topic ");
+    }
+}

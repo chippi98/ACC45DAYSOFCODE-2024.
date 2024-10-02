@@ -19,13 +19,14 @@ int main()
 
 if(a==1 || b==1)
 {
-    if(b==1 || c==1 )
+    if(b==1 || c==1)
     {
-        if(a==1 || c==1)
-        {
             printf("it's the time to fill");
-        }
     }
+      else
+      {
+      printf("not now");
+}
 }
   else 
   {

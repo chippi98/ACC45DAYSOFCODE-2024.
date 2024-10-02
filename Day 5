@@ -1,0 +1,35 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+
+     
+    printf("Enter value for B1 bottle full-1 or empty-0 \n");
+    scanf("%d",&a);
+    
+    printf("enter values for B2 bottle full-1 or empty-0 \n ");
+    scanf("%d",&b);
+    
+    printf("enter value for B3  bottle full-1 or empty-0 \n");
+    scanf("%d",&c);
+    
+    
+
+if(a==1 || b==1)
+{
+    if(b==1 || c==1 )
+    {
+        if(a==1 || c==1)
+        {
+            printf("it's the time to fill");
+        }
+    }
+}
+  else 
+  {
+      printf("not now ");
+  }
+
+}

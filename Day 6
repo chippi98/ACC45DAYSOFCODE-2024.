@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,d,score1,score2,sum;
+    
+    printf("enter maximum points for problem A \n");
+    scanf("%d",&a);
+    
+    printf("enter maximum points for problem B \n ");
+    scanf("%d",&b);
+    
+    
+    printf("enter time taken by chef to solve problem A in minutes  \n");
+    scanf("%d",&c);
+    
+    printf("enter time taken by chef to solve problem B in minutes \n ");
+    scanf("%d",&d);
+    
+    score1= a-(c*2);
+    score2=b-(d*4);
+    
+    sum=score1 + score2;
+    
+    
+printf("Time Taken to solve problem A %d \n",score1);
+printf("Time Taken to solve problem B %d \n",score2);
+printf("Total time took to solve both the problems is %d \n",sum);
+}
+

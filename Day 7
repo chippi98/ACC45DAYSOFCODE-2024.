@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{
+    float time,a,b,c,hours,comp;
+    
+    printf("enter hours took to complete A project \n");
+    scanf("%f",&a);
+    
+       printf("enter hours took to complete B project \n");
+    scanf("%f",&b);
+    
+       printf("enter hours took to complete C project \n");
+    scanf("%f",&c);
+    
+       printf("enter time at which he started doing the project \n ");
+    scanf("%f",&hours);
+    
+    time=a+b+c;
+    comp=time+hours;
+    
+    
+    if(comp<=10)
+    {
+    printf("Project Submission on time \n");
+    }
+    else
+    {
+ printf("Project Submission is not on time \n");
+    }
+  printf("Hours took to complete the projects  %f",time);
+}

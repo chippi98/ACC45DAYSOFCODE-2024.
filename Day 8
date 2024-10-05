@@ -1,0 +1,27 @@
+
+// Calculate the profits for the products sold.If profit is greater than or equal to 1000 then give the message "congrats earned the grand profit",otherwise profit earned.
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,profit ;
+   
+   printf("Real price of the Products \n");
+   scanf("%d",&a);
+   
+    printf("Price at which products were sold \n");
+   scanf("%d",&b);
+   
+   
+profit=b-a;
+
+if(profit >=1000)
+{
+    printf("Congrats earned the grand profit %d",profit);
+}
+   else
+   {
+       printf("profit earned \n %d",profit);
+   }
+}

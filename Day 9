@@ -1,0 +1,32 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int months,price,rent,cooler;
+    
+    printf("enter number of months \n");
+    scanf("%d",&months);
+    
+    printf("enter rent \n");
+    scanf("%d",&rent);
+    
+    
+    printf("enter price of the water cooler \n ");
+    scanf("%d",&price);
+    
+    cooler=rent*months;
+    
+    if(cooler< price)
+    {
+        printf("Total rent %d \n",cooler);
+        printf("water cooler price %d \n",price);
+        printf("so it's more affordable to rent \n  ");
+    }
+    else
+    {
+            printf("Total rent %d \n",cooler);
+            printf("water cooler price %d \n",price);
+            printf("It's better to purchase a water cooler");
+    }
+}

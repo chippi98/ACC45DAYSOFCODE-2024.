@@ -1,0 +1,34 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,sum1,sum2,sum3,object;
+    
+    printf("enter weight of the object \n");
+    scanf("%d",&object);
+    printf("enter the weight1 he has \n");
+    scanf("%d",&a);
+    printf("enter the weight2 he has \n");
+    scanf("%d",&b);
+    printf("enter the weight3 he has \n");
+    scanf("%d",&c);
+    
+    
+    sum1=a+b;
+    sum2=b+c;
+    sum3=a+c;
+    
+    if(object==a  || object ==b || object==c ||  object==sum1 || object==sum2 || object==sum3 )
+    {
+        printf("yes");
+    }
+    
+    else
+    {
+        printf("no");
+    }
+    
+}
+    

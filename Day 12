@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int n,m,o,cards;
+    
+    printf("enter the total number of cards on the table \n" );
+    scanf("%d",&n);
+    
+    printf("enter the cards face up \n");
+    scanf("%d",&m);
+    
+    o=n-m;
+
+    cards = (m < o) ? m : o;
+    printf("Minimum number of operations to make all cards face the same direction: %d\n", cards );
+}

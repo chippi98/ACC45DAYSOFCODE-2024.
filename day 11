@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x,y,dis,time;
+    
+    printf("enter the position of thief \n");
+    scanf("%d",&x);
+    
+    printf("enter the position of police \n");
+    scanf("%d",&y);
+    
+    if(x==y)
+    {
+        printf("Caught the thief");
+    }
+    
+// thief=x/1;
+// police=y/2;
+
+ dis=abs(x-y);
+ time= dis/(2-1);
+ 
+ printf("time taken to catch the thief %d",time);
+}
+
+

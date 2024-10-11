@@ -1,0 +1,44 @@
+
+
+#include <stdio.h>
+
+int main() 
+{
+    int a, b, c, d,tastiness;
+    
+    printf("Enter the tastiness of A: ");
+    scanf("%d", &a);
+    
+    printf("Enter the tastiness of B: ");
+    scanf("%d", &b);
+    
+    printf("Enter the tastiness of C: ");
+    scanf("%d", &c);
+    
+    printf("Enter the tastiness of D: ");
+    scanf("%d", &d);
+
+    if (a + c > tastiness) {
+        tastiness = a + c;
+           
+    printf("%d max",tastiness);
+    }
+    
+
+    if (a + d > tastiness) {
+        tastiness = a + d;
+    }
+    
+    if (b + c > tastiness) {
+        tastiness = b + c;
+    }
+    
+   
+    if (b + d > tastiness) {
+        tastiness = b + d;
+    }
+
+    printf("The maximum possible tastiness is: %d\n", tastiness);
+    
+}
+ 

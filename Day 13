@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int problems,selected,percent;
+    printf("enter number of problems \n");
+    scanf("%d",&problems);
+    
+    printf("enter number of problems selected \n");
+    scanf("%d",&selected);
+    
+    percent=(problems*50)/100;
+    
+    
+    if(selected >=percent)
+    {
+        printf("YES");
+    }
+    else
+    {
+        printf("NO");
+    }
+    
+}

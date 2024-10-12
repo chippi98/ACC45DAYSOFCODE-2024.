@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+    int A,B,C;
+    
+  
+    printf("Enter the number of candies \n ");
+    scanf("%d", &A);
+    printf("Enter the number of pockets in each bag \n ");
+    scanf("%d", &B);
+    printf("Enter the maximum number of candies each pocket can hold \n");
+    scanf("%d", &C);
+    
+ 
+    int capacity = B * C;
+    int bags = A /capacity;
+    
+    if (A % capacity != 0) {
+        bags++;
+    }
+    
+    
+    printf("Minimum number of bags required: %d\n",bags);
+    
+
+}
+
+
+    
+    
+    
+    
+    
+    

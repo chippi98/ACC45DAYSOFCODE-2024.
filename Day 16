@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int pulp,note;
+    printf("Amount of pulp in kilogram \n");
+    scanf("%d",&pulp);
+    
+    note=(pulp*1000)/100;
+    printf("number of notebooks each containing 100 pages \n %d",note);
+    
+    
+}

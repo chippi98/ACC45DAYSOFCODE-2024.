@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int bike,car;
+    printf("Enter time taken to reach by bike(in mins) \n");
+    scanf("%d",&bike);
+    
+    printf("Enter time taken to reach by car(in mins) \n ");
+    scanf("%d",&car);
+    
+    if(car==bike)
+    {
+        printf("you can choose anyone to reach home \n");
+        
+    }
+if(car>bike)
+{
+    printf("it's better to choose bike to reach home \n");
+}
+else
+{
+    printf("it's better to choose car to reach home \n");
+}
+}

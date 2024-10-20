@@ -1,0 +1,33 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int N,A,B,time,time1;
+    
+    printf("number of teams (power of 2) : ");
+    scanf("%d",&N);
+    
+    printf("Enter time for each round :");
+    scanf("%d",&A);
+    
+    printf("enter break time :");
+    scanf("%d",&B);
+    
+    // round 1
+    
+    time=A+B;
+
+    // round 2
+    
+    time1= time+A;
+
+    printf("time taken took to conduct the event %d\n ",time1);
+}
+
+
+    
+    
+    
+    
+    

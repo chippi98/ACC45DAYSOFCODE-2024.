@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int N,i,tues;
+    
+    printf("enter number of days left until halloween 1.Monday 2.Tuesday and so on \n");
+    
+    scanf("%d",&N);
+    
+    // days left 
+    
+    for (i=1; i<=N;i++)
+    {
+     if(i%7==2)
+     {
+         tues++;
+     }
+    }
+    printf("number of tuesday until hallowen %d",tues);
+}
